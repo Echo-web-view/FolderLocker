@@ -1,0 +1,20 @@
+{
+  "_comment": "这是 FolderLocker 的配置格式示例，不会被程序自动读取；请复制到 folder-locker.json 后再修改。",
+  "version": 1,
+  "settings": {
+    "_comment": "窗口大小单位为像素。",
+    "windowWidth": 400,
+    "windowHeight": 300
+  },
+  "targets": [
+    {
+      "_comment": "id 通常由程序生成；path、password 请替换为实际值。",
+      "id": "00000000-0000-0000-0000-000000000000",
+      "name": "示例文档",
+      "path": "C:\\Users\\YourName\\Documents",
+      "password": "请替换为实际密码",
+      "state": "LOCKED",
+      "autoLock": "KEEP_UNLOCKED"
+    }
+  ]
+}

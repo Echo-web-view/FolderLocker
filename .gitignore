@@ -1,0 +1,9 @@
+target/
+config/folder-locker.json
+config/folder-locker.shortcut
+*.class
+.idea/
+*.iml
+*.ico
+.vscode/
+Structure.md
